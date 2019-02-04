@@ -1,6 +1,10 @@
 # lab04
 1. Create wms and wfs using GeoServer
-1.1 A shapefile named after ore_counties was stored in the assets folder. You will use it to make web map services on GeoServer. Above all, you will need to synchronize the data to your working space.
+1.1 A shapefile named after ore_counties was stored in the assets folder. You will use it to make web map services on GeoServer. Above all, you will need to synchronize the data to your working github space. 
+
+I zipped the shape files and uploaded them as a style to MapBox: burkr.8bklnct9
+
+
 
 1.2 If you a GeoServer on a local computer or one in Digital Earth Lab, the url of GeoServer should be http://localhost:8080/geoserver by default. Also, the default username is admin, the password is geoserver.
 
@@ -8,7 +12,7 @@
 
 1.4 In the main page of GeoServer, click on the Layer Preview under the Data tab. An table of the layer will show up. In this table, please identify the layer you have created, and then click on the Select one dropdown menu. In this menu, you will need to generate two services.
 
-Once you click on the PNG item under the WMS category, a new browser web page tab will appeare with a map tile. Please record the url of wms and also save the map tile as an image.
+Once you click on the PNG item under the WMS category, a new browser web page tab will appear with a map tile. Please record the url of wms and also save the map tile as an image.
 
 Also, by click on the GeoJson item under the WFS category, a new browser web tab will appear with a raw geojson data. Please record the url and save the geojson data in the name of ore_counties.geojson.
 
@@ -17,7 +21,7 @@ Also, by click on the GeoJson item under the WFS category, a new browser web tab
 
 2.2 you are expected to design your map to embody a specific theme. For example,
 
-a base map design motivated by a keyword. (refer to http://palettr.com/);
+a base map design motivated by a keyword. (refer to http://palettr.com/); Says the server is overloaded at the moment. 
 a base map design inspired by a picture. (refer to https://coolors.co/);
 a base map design for color blindness. (refer to https://coolors.co/);
 a high contrast map (refer to http://colorpalettes.net/); and
