@@ -3,10 +3,21 @@
 <head>
   <meta charset='utf-8' />
   <title>Display a map</title>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  
+  
+  <style>
+    <!-- Stylesheet -->
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.4.0/leaflet.css"/>
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css" rel='stylesheet'/>
+<!-- Javascript Libraries -->
+<script src="http://cdn.leafletjs.com/leaflet/v1.4.0/leaflet.js"></script>
+<!-- mapbox gl js -->
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js"></script>
+<!-- leaflet mapbox js -->
+<script src="http://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
-  <style>
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
   </style>
@@ -22,6 +33,15 @@ const map = new mapboxgl.Map({
   center: [-112.942500, 37.268600],
   zoom: 14.0
 });
+  
+  <--from lecture 13-->
+    mapbox_token = 'xxxx';
+
+var gl = L.mapboxGL({
+    accessToken: mapbox_token,
+    style: 'assets/style.json',
+    attribution: 'Created By <a href="https://github.com/jakobzhao/">Bo Zhao</a> based on the <a href="assets/license.txt">Mapbox basic style</a>'
+}).addTo(map);
 </script>
 
 </body>
