@@ -7,6 +7,7 @@
   
   <style>
     <!-- Stylesheet -->
+    <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Critical Habitat for Threatened & Endangered Species [USFWS]" src="//fws.maps.arcgis.com/apps/Embed/index.html?webmap=9d8de5e265ad4fe09893cf75b8dbfb77&extent=-125.4474,45.0562,-114.8017,49.3306&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.4.0/leaflet.css"/>
 <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css" rel='stylesheet'/>
 <!-- Javascript Libraries -->
@@ -29,12 +30,12 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiYnVya3IiLCJhIjoiY2pyM3o2bDQ5MDIxNzRhbTMyeWRsb2RldiJ9.q8kfMI-VtINfQSIwUkxczg';
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/burkr/cjrquv3hi0lvq2snqqsom42gr',
+  style: 'mapbox://styles/burkr/cjrquv3hi0lvq2snqqsom42gr', 
   center: [-112.942500, 37.268600],
   zoom: 14.0
 });
   
-  <--from lecture 13-->
+  <--from lecture 13-download mapbox map-->
     mapbox_token = 'xxxx';
 
 var gl = L.mapboxGL({
