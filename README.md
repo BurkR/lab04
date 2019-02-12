@@ -5,7 +5,9 @@ You will have one and a half weeks to work on this lab. To submit, please follow
 
 Note: Regarding the name of this github repo, please use something related to your base map, names like lab04, assignment04 are not recommended.
 
-2. In the readme.md, please add a link (the link should be in the format of http://[github_username].github.io/[submissio_lab_04]) to access the web page of the mapbox basemap. This web page to access the base map should be the index.html of this github repository. Basically, By clicking on the link, the base map hosted by this github repository will show. Refer to lecture 13 to see a tutorial. (30 POINTS)
+2. In the readme.md, please add a link (the link should be in the format of http://BurkR.github.io/lab04]) to access the web page of the mapbox basemap. This web page to access the base map should be the index.html of this github repository. Basically, By clicking on the link, the base map hosted by this github repository will show. Refer to lecture 13 to see a tutorial. (30 POINTS)
+
+https://BurkR.github.io/lab04/index.html
 
 3. In the readme.md, reflect on your design process - How did you determine the current web map style? What specific topic motivate you to design the map? For example, you can design a map driven by the idea of Beaver Nation, the primary colors should be Orange and Black. (10 POINTS) At last, if you want to share you map to mapbox gallery, please Tweet it with #BuiltWithMapbox to submit it to the gallery.
 
